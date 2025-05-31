@@ -28,7 +28,7 @@ const projects = [
         title: "Signature App",
         description: "Build React web application using react-signature-canvas module.",
         imageUrl: "/img/Sign.jpg",
-        link: "https://singnature-draw.netlify.app/",
+        link: "https://mysingnature.netlify.app/",
         technologies: ["React.Js", "react-signature-canvas module"]
     },
     {
@@ -36,7 +36,7 @@ const projects = [
         title: "Portfolit",
         description: "This my protflio website where I store all my project and my knowledge.",
         imageUrl: "/img/protfolio.jpg",
-        link: "https://bmd-portfolio-pink.vercel.app/",
+        link: "https://bhavadipdev.vercel.app/",
         technologies: ["React.Js", "React-bootstrap"]
     }
     // Add more projects as needed
