@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import React from 'react';
 import { GraduationCap, School, BookOpen } from "lucide-react";
 
 const educationData = [
