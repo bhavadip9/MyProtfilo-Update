@@ -1,8 +1,15 @@
 import { motion } from "framer-motion";
 import React from 'react';
-import { GraduationCap, School, BookOpen } from "lucide-react";
-
+import { GraduationCap, School, BookOpen, Laptop } from "lucide-react";
+{/* <Laptop /> */ }
 const educationData = [
+    {
+        title: "Intern",
+        institute: "Tatvasoft",
+        description: "Dotnet Core",
+        year: "2025",
+        icon: Laptop  // Specific icon for this entry
+    },
     {
         title: "B.Tech",
         institute: "GEC Gandhinagar",
@@ -15,14 +22,14 @@ const educationData = [
         institute: "MK Techno School Talaja",
         description: "10+2 with Physics, Maths and Chemistry, got 1677 rank in Gujarat board.",
         year: "2021",
-        icon: School  // Specific icon for this entry
+        icon: BookOpen  // Specific icon for this entry
     },
     {
         title: "SSC",
         institute: "Shree Vivekanand Devali",
         description: "10 with 80% pass",
         year: "2019",
-        icon: BookOpen  // Specific icon for this entry
+        icon: School  // Specific icon for this entry
     },
 ];
 

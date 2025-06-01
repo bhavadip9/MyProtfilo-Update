@@ -36,7 +36,7 @@ function Home() {
                     <div className="container1">
                         <div className="avatar">
                             <Link href="/">
-                                <img src="/img/Bhavadip.JPG
+                                <img src="/img/Bhavadip5.jpg
                                 " alt="Bhavadip" />
                             </Link>
                         </div>
