@@ -35,9 +35,9 @@ const educationData = [
 
 const EducationTimeline = () => {
     return (
-        <div className="bg-[#232526] relative w-full px-6 py-2 md:py-16">
+        <div className="bg-[#232526] relative  max-w-4xl mx-auto py-2 md:py-16 px-4">
 
-            <div className="acsdemygraph">
+            <div className="">
                 {/* Vertical Line */}
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 bg-blue-600 h-full z-0 hidden md:block" />
 
@@ -49,7 +49,7 @@ const EducationTimeline = () => {
                     return (
                         <div
                             key={index}
-                            className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full mb-4 md:mb-16 "
+                            className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full m-auto  md:mb-16 "
                         >
                             {/* Left Card (or full width on mobile) */}
                             {isLeft ? (
@@ -70,7 +70,7 @@ const EducationTimeline = () => {
                                     </motion.div>
 
                                     {/* Center Icon */}
-                                    <div className="flex flex-col me-6 items-center  w-auto  mb-6 md:mb-0 hidden md:block">
+                                    <div className="flex flex-col  items-center  w-auto  mb-6 md:mb-0 hidden md:block">
                                         <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center shadow-md z-10">
                                             <Icon className="text-white" size={18} /> {/* Use specific icon */}
                                         </div>
@@ -82,7 +82,7 @@ const EducationTimeline = () => {
                                 <>
                                     <div className="hidden md:block w-5/12" />
 
-                                    <div className="flex flex-col me-6 items-center w-auto  mb-6 md:mb-0  hidden md:block">
+                                    <div className="flex flex-col  items-center w-auto  mb-6 md:mb-0  hidden md:block">
                                         <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center shadow-md z-10">
                                             <Icon className="text-white" size={18} /> {/* Use specific icon */}
                                         </div>
@@ -93,7 +93,7 @@ const EducationTimeline = () => {
                                         whileInView={{ opacity: 1, x: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ duration: 0.6, delay: index * 0.2 }}
-                                        className="w-full md:w-5/12 text-center md:text-left md:pl-6"
+                                        className="w-full pb-5 md:w-5/12 text-center md:text-left md:pl-6"
                                     >
                                         <div className="bg-[#1f2937] text-white p-4 rounded-xl shadow-md border-l-4 border-blue-600">
                                             <h3 className="font-bold text-lg">{item.title}</h3>

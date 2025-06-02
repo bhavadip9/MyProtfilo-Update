@@ -100,7 +100,7 @@ function Home() {
                 </div>
 
                 <div style={{ backgroundColor: "#232526" }} className="pb-7" >
-                    <div className="about skillclass pb-5" >
+                    <div className="about skillclass max-w-4xl mx-auto" >
                         <h1 className="text-4xl my-2">Education</h1>
                     </div>
                     <EducationTimeline />
