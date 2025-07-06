@@ -8,9 +8,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
 
 
-# 🌐 Personal Portfolio – React + Vite
+# 🌐 Bhavadip's Portfolio – React + Vite
 
-This is my personal portfolio website built using **React** and **Vite**. It highlights my skills, projects, experience, and contact information. The project is designed to be responsive, fast, and easy to maintain.
+This is my personal portfolio website built with **React** and **Vite**. It showcases my skills, projects, resume, and ways to get in touch. The website is fully responsive, fast, and deployed on Vercel.
+
+🔗 **Live Site**: [bhavadipdev.vercel.app](https://bhavadipdev.vercel.app)
 
 ## 🚀 Tech Stack
 
@@ -36,7 +38,7 @@ This is my personal portfolio website built using **React** and **Vite**. It hig
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/bhavadip9/MyProtfilo-Update
 
 # Navigate into the project folder
 cd portfolio
