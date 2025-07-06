@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import '../App.scss';
 import EducationTimeline from "../componet/EducationTimeline"
@@ -10,7 +11,8 @@ function Home() {
 
         const link = document.createElement('a');
 
-        link.href = `https://drive.google.com/file/d/1Y7SkoCkV9jLESVIlGm4XEaDoRUxofWyL/view?usp=sharing`;
+        link.href = `https://drive.google.com/file/d/1EyIvE3abMVVBV2QUiWJ7QQra8GzE7bP8/view?usp=drivesdk`;
+        // link.href = `https://drive.google.com/file/d/1Y7SkoCkV9jLESVIlGm4XEaDoRUxofWyL/view?usp=sharing`;
 
 
         link.download = 'Bhavadip.pdf'; // The name of the file to be downloaded
@@ -56,8 +58,8 @@ function Home() {
 
 
                         <div className="flex flex-col sm:flex-row sm:my-3 my-5 mx-auto gap-3 items-center justify-center">
-                            <button className="btn" onClick={handleDownload}>
-                                Resume
+                            <button className="btn flex items-center gap-2 my-auto" onClick={handleDownload}>
+                                Resume <IoCloudDownloadOutline />
                             </button>
 
                             <button className="btn" onClick={handleMywork}>
