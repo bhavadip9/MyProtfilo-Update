@@ -8,7 +8,6 @@ import Project from "./page/Project";
 import Blog from "./page/Blog";
 import Navbar from "./componet/Navbar";
 import Footer from "./componet/Footer";
-
 import './App.scss';
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
-
+      {/* <Chatbot /> */}
       <Footer />
     </Router>
 

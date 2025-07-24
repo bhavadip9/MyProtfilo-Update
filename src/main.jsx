@@ -5,6 +5,7 @@ import './main.css';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Atom } from "react-loading-indicators";
 
+
 function FirstRunWrapper() {
   const [loading, setLoading] = useState(true);
 
@@ -40,6 +41,7 @@ function FirstRunWrapper() {
       <div className={`transition-opacity duration-1000 ${loading ? 'opacity-50' : 'opacity-100'}`}>
         <SpeedInsights />
         <App />
+
       </div>
     </div>
   );
